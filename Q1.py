@@ -1,3 +1,4 @@
+#asking for iput from user
 print("Melanie Dental Clinic")
 x= input("Enter patient's name:")
 q1= input("Was clesning performed? y/n :")
@@ -9,6 +10,7 @@ print("2- Cavity filling rate: $200")
 print("3- X-Ray rate: $100")
 print("4- Tax rate: 15%")
 
+#calculating tax from percentage to amount
 print("Tax")
 def calculating_tax(a,b,c):
   e=a+b+c
@@ -21,9 +23,13 @@ def total(a,b,c,e):
     print(t)
 z=total(60,200,100,54)
 
-def discount(z):
-    q=z-10/100*z
-    print(q)
-discount(414)
+x=int(input("Total: "))
+if (x>200):
+  print(x-5/100*x)
+elif (x>300):
+  print(x-10/100*x)
+else:
+  print(x)
+  
 
 
