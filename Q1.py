@@ -15,3 +15,15 @@ def calculating_tax(a,b,c):
   e=e*.15
   print(e)
 t=calculating_tax(60,200,100)
+
+def total(a,b,c,e):
+    t=a+b+c+e
+    print(t)
+z=total(60,200,100,54)
+
+def discount(z):
+    q=z-10/100*z
+    print(q)
+discount(414)
+
+
