@@ -20,4 +20,12 @@ def outputs(a,b,c,d):
     TotalCents_penny= a*PENNY_VALUE
     TotalCents_nickel= b*NICKEL_VALUE
     TotalCents_dimes= c*DIME_VALUE
+    TotalCents_Dollars= d*PENNIES_IN_DOLLAR
+    TotalCents= (TotalCents_dimes+TotalCents_penny+TotalCents_nickel+TotalCents_Dollars)
+     
+    print(TotalCents)
+    
+    Total_dollars= TotalCents/PENNIES_IN_DOLLAR
+
+    
    
