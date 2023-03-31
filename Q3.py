@@ -16,7 +16,8 @@ def inputs():
     d=int(input("Number of quarters "))
     return a,b,c,d
 
-def outputs(a,b,c,d):
+#calculation
+def values(a,b,c,d):
     TotalCents_penny= a*PENNY_VALUE
     TotalCents_nickel= b*NICKEL_VALUE
     TotalCents_dimes= c*DIME_VALUE
@@ -26,12 +27,13 @@ def outputs(a,b,c,d):
     print(TotalCents)
     
 a,b,c,d= inputs()
-outputs(a,b,c,d)
+values(a,b,c,d)
 
 x= float(input("Enter Total Cents: "))
 TotalDollars= x/PENNIES_IN_DOLLAR
 print(TotalDollars)
-    
+
+# giving Response
 if (x>1.0):
     print("Sorry, the amount you entered was more than one dollar.")
 elif(x<1.0):
