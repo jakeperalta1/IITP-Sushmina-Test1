@@ -1,0 +1,5 @@
+print("Melanie Dental Clinic")
+x= input("Enter patient's name:")
+q1= input("Was clesning performed? y/n :")
+q2= input("Was cavity-filling performed? y/n :")
+q3= input("Was X-ray performed? y/n :")
