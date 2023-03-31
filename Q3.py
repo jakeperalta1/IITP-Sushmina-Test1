@@ -25,7 +25,17 @@ def outputs(a,b,c,d):
      
     print(TotalCents)
     
-    Total_dollars= TotalCents/PENNIES_IN_DOLLAR
+a,b,c,d= inputs()
+outputs(a,b,c,d)
 
+x= float(input("Enter Total Cents: "))
+TotalDollars= x/PENNIES_IN_DOLLAR
+print(TotalDollars)
     
+if (x>1.0):
+    print("Sorry, the amount you entered was more than one dollar.")
+elif(x<1.0):
+    print("Sorry, the amount you entered was less than one dollar.")
+else:
+    print("Congratulations! The amount you entered was exactly one dollar! You win the game!!")
    
