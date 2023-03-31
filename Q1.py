@@ -1,4 +1,4 @@
-#asking for iput from user
+#asking for input from user
 print("Melanie Dental Clinic")
 x= input("Enter patient's name:")
 q1= input("Was clesning performed? y/n :")
@@ -23,7 +23,8 @@ def total(a,b,c,e):
     print(t)
 z=total(60,200,100,54)
 
-x=int(input("Total: "))
+#asking for input to calculate discount according to Total
+x=int(input("Grand Total: "))
 if (x>200):
   print(x-5/100*x)
 elif (x>300):
