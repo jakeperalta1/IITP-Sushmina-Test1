@@ -1,3 +1,4 @@
+#QUESTION 1
 #asking for input from user
 print("Melanie Dental Clinic")
 x= input("Enter patient's name:")
@@ -10,7 +11,7 @@ print("2- Cavity filling rate: $200")
 print("3- X-Ray rate: $100")
 print("4- Tax rate: 15%")
 
-#calculating tax from percentage to amount
+#calculating tax amount
 print("Tax")
 def calculating_tax(a,b,c):
   e=a+b+c
