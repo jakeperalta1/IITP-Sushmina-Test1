@@ -7,13 +7,13 @@ def takeInput():
 def display_Result(a,op,c):
     
     if (op=="+"):
-        print("sum",a+c)
+        print(a,"+",c,"=",a+c)
     elif(op=="-"):
-        print("difference",a-c)
+        print(a,"-",c,"=",a-c)
     elif(op=="*"):
-        print("multiplication",a*c)
+        print(a,"*",c,"=", a*c)
     elif(op=="/"):
-        print("division",a/c)
+        print(a,"/",c,"=",a/c)
     else:
         print("Invalid")
 

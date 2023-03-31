@@ -12,11 +12,11 @@ print("3- X-Ray rate: $100")
 print("4- Tax rate: 15%")
 
 #calculating tax amount
-print("Tax")
+
 def calculating_tax(a,b,c):
   e=a+b+c
   e=e*.15
-  print(e)
+  
 t=calculating_tax(60,200,100)
 
 def total(a,b,c,e):
@@ -25,13 +25,27 @@ def total(a,b,c,e):
 z=total(60,200,100,54)
 
 #asking for input to calculate discount according to Total
-x=int(input("Total: "))
+x=int(input("Sub-Total: "))
 if (x>200):
   print(x-5/100*x)
 elif (x>300):
   print(x-10/100*x)
 else:
   print(x)
+  
+print("           Melanie Dental Clinic           ")
+print("           ---------------------           ")
+print("                                           ")
+print("          Receipt for patient's name       ")
+print("         ----------------------------      ")
+print("                                           ")
+print(" Sub-total=                                ")
+print(" Tax=                                      ")
+print("                                           ")
+print("-------------------------------------------")
+print("                   Total                   ")
+
+
   
 
 
